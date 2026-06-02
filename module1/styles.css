@@ -1,0 +1,161 @@
+/* Task 1 - Header Styles */
+
+#welcomeBanner{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+/* Task 2 - Highlight Text */
+
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Task 3 - Selectors */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: darkblue;
+    text-align: center;
+}
+
+.eventCard{
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* Task 4 - Colors and Background */
+
+body{
+    background-color: #f4f4f4;
+    background-image: url("bg1.png");
+    background-size: cover;
+}
+
+h1{
+    color: #003366;
+}
+
+section{
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Task 5 - Typography */
+
+body{
+    font-family: Poppins, sans-serif;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Task 6 - Links and Lists */
+
+a:link{
+    color: blue;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: purple;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+li{
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Task 7 - Table */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #eeeeee;
+}
+
+/* Task 8 - Box Model */
+
+input:focus,
+textarea:focus,
+select:focus{
+    outline: 2px solid orange;
+}
+
+.hiddenBox{
+    visibility: hidden;
+}
+
+.noneBox{
+    display: none;
+}
+
+/* Task 9 - Multiple Columns */
+
+.newsArticle{
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 1px solid gray;
+}
+
+/* Task 10 - Media Query */
+
+@media screen and (max-width:768px){
+
+    nav{
+        display: block;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+}
