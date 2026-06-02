@@ -1,0 +1,334 @@
+
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Poppins,sans-serif;
+    background-image:url("bg1.png");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:#333;
+    padding:20px;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav{
+    background:linear-gradient(135deg,#0d6efd,#6610f2);
+    padding:15px;
+    border-radius:15px;
+    text-align:center;
+    margin-bottom:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ffd43b;
+}
+
+/* =========================
+   WELCOME BANNER
+========================= */
+
+#welcomeBanner{
+    background:linear-gradient(135deg,#0d6efd,#6610f2);
+    color:white;
+    padding:30px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.2);
+    animation:fadeIn 1.2s ease;
+}
+
+/* =========================
+   HIGHLIGHT
+========================= */
+
+.highlight{
+    background:#fff200;
+    padding:12px;
+    border-radius:10px;
+    font-weight:bold;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   HEADINGS
+========================= */
+
+h1{
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+
+h2{
+    color:#0d47a1;
+    text-align:center;
+    margin-bottom:20px;
+    font-size:2.3rem;
+    font-weight:700;
+}
+
+/* =========================
+   SECTION BOXES
+========================= */
+
+section{
+    max-width:1300px;
+
+    margin:25px auto;
+    padding:25px;
+
+    background:rgba(255,255,255,0.88);
+
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+
+    transition:0.4s;
+}
+
+section:hover{
+    transform:translateY(-3px);
+}
+
+/* =========================
+   EVENT CARDS
+========================= */
+
+.eventCard{
+    max-width:1300px;
+
+    margin:25px auto;
+    padding:25px;
+
+    background:rgba(255,255,255,0.88);
+
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+
+    transition:0.4s;
+}
+
+.eventCard:hover{
+    transform:translateY(-5px);
+}
+
+/* =========================
+   PARAGRAPHS
+========================= */
+
+p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* =========================
+   LISTS
+========================= */
+
+ul{
+    list-style-position:inside;
+}
+
+li{
+    padding:12px;
+    font-size:22px;
+}
+
+/* =========================
+   FORMS
+========================= */
+
+input,
+textarea,
+select{
+    width:100%;
+    padding:12px;
+    margin-top:5px;
+
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+    outline:none;
+    border-color:#0d6efd;
+    box-shadow:0 0 10px rgba(13,110,253,0.3);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+button,
+.btn{
+    border-radius:10px !important;
+    transition:0.3s;
+    font-weight:600;
+}
+
+button:hover,
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+/* =========================
+   TABLE
+========================= */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+td{
+    padding:15px;
+    text-align:center;
+}
+
+/* =========================
+   IMAGES
+========================= */
+
+img{
+    border-radius:15px;
+    transition:0.4s;
+}
+
+img:hover{
+    transform:scale(1.05);
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* =========================
+   BOOTSTRAP CARDS
+========================= */
+
+.card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-img-top{
+    height:220px;
+    object-fit:cover;
+}
+
+/* =========================
+   NEWS ARTICLE
+========================= */
+
+.newsArticle{
+    column-count:2;
+    column-gap:30px;
+    column-rule:1px solid gray;
+    text-align:justify;
+}
+
+/* =========================
+   CONTACT SECTION
+========================= */
+
+#contact h2{
+    text-align:left;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    background:#212529;
+    color:white;
+    text-align:center;
+    padding:20px;
+    border-radius:15px;
+    margin-top:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* =========================
+   ANIMATION
+========================= */
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(-20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width:768px){
+
+    body{
+        padding:10px;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    img{
+        width:100%;
+        height:auto;
+    }
+
+    h1{
+        font-size:24px;
+    }
+
+    h2{
+        font-size:28px;
+    }
+
+    li{
+        font-size:18px;
+    }
+
+    .newsArticle{
+        column-count:1;
+    }
+
+}
+```
