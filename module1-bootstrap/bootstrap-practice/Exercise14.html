@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Exercise 14</title>
+
+<link rel="stylesheet"
+href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<h1 class="text-center text-primary">
+Display and Visibility
+</h1>
+
+<hr>
+
+<h4>Exercise 14.1</h4>
+
+<p>
+Using d-none, d-md-block and d-lg-flex
+</p>
+
+<div class="d-none d-md-block bg-success text-white p-3 rounded mb-3">
+
+Visible on Tablet and Desktop
+
+</div>
+
+<div class="d-none d-lg-flex bg-primary text-white p-3 rounded justify-content-center">
+
+Visible only on Large Screens
+
+</div>
+
+<hr>
+
+<h4>Exercise 14.2</h4>
+
+<p>
+Responsive Sidebar visible only on tablets and above
+</p>
+
+<div class="row">
+
+<div class="col-md-3 d-none d-md-block">
+
+<div class="bg-dark text-white p-4 rounded">
+
+<h5>Sidebar</h5>
+
+<ul>
+<li>Home</li>
+<li>Events</li>
+<li>Gallery</li>
+<li>Contact</li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="col-md-9">
+
+<div class="bg-light p-4 border rounded">
+
+<h4>Main Content Area</h4>
+
+<p>
+This content is visible on all screen sizes.
+The sidebar appears only on tablets and larger screens.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

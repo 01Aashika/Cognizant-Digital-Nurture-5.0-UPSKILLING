@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Exercise 18</title>
+
+<link rel="stylesheet"
+href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<h1 class="text-center text-primary">
+Bootstrap 5 JavaScript Plugins
+</h1>
+
+<hr>
+
+<h4>Exercise 18.1</h4>
+
+<button
+class="btn btn-primary"
+data-bs-toggle="modal"
+data-bs-target="#eventModal">
+
+Open Modal
+
+</button>
+
+<div
+class="modal fade"
+id="eventModal">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h5 class="modal-title">
+Community Event
+</h5>
+
+<button
+type="button"
+class="btn-close"
+data-bs-dismiss="modal">
+</button>
+
+</div>
+
+<div class="modal-body">
+
+Welcome to Bootstrap Modal Popup.
+
+</div>
+
+<div class="modal-footer">
+
+<button
+class="btn btn-secondary"
+data-bs-dismiss="modal">
+
+Close
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<hr>
+
+<h4>Exercise 18.2</h4>
+
+<div class="accordion"
+id="eventAccordion">
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button
+class="accordion-button"
+data-bs-toggle="collapse"
+data-bs-target="#item1">
+
+Sports Day
+
+</button>
+
+</h2>
+
+<div
+id="item1"
+class="accordion-collapse collapse show"
+data-bs-parent="#eventAccordion">
+
+<div class="accordion-body">
+
+Sports competitions and activities.
+
+</div>
+
+</div>
+
+</div>
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button
+class="accordion-button collapsed"
+data-bs-toggle="collapse"
+data-bs-target="#item2">
+
+Cultural Festival
+
+</button>
+
+</h2>
+
+<div
+id="item2"
+class="accordion-collapse collapse"
+data-bs-parent="#eventAccordion">
+
+<div class="accordion-body">
+
+Dance, Music and Cultural Programs.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
