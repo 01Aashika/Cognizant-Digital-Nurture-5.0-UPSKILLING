@@ -1,0 +1,46 @@
+/* Google Font Applied */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main Heading */
+h1{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Section Headings */
+h2{
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Paragraph Styling */
+p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+/* Navigation Links */
+nav a{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Highlight Section */
+.highlight{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+h2{
+    color: darkblue;
+    text-align: center;
+    margin: 15px;
+}
+
+/* ID Selector for Banner */
+#welcomeBanner{
+    background-color: navy;
+    color: white;
+    padding: 15px;
+}
+
+/* Class Selector */
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* Grouping Selector */
+h3, p{
+    font-family: Arial, sans-serif;
+    color: green;
+}

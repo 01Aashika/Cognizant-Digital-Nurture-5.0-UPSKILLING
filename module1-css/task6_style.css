@@ -1,0 +1,43 @@
+/* Navigation Menu */
+nav{
+    background-color: rgba(0, 51, 102, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+/* Remove Bullets from Navigation */
+nav ul{
+    list-style-type: none;
+}
+
+/* Link States */
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: lightgray;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+/* Event List Styling */
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+/* List Item Spacing */
+li{
+    padding: 8px;
+    margin: 5px 0;
+    font-size: 18px;
+}

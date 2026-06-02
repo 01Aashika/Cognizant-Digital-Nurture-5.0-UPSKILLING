@@ -1,1 +1,12 @@
+/* Header Styles */
+#welcomeBanner{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
 
+/* Highlight Styles */
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+}

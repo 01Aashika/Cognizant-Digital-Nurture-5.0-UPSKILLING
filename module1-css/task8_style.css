@@ -1,0 +1,29 @@
+/* Event Card Box Model */
+
+.eventCard{
+    border: 3px solid #0066cc;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255,255,255,0.85);
+    border-radius: 10px;
+}
+
+/* Outline for Form Fields */
+
+input:focus,
+select:focus,
+textarea:focus{
+    outline: 3px solid orange;
+}
+
+/* Visibility Hidden Example */
+
+.hiddenBox{
+    visibility: hidden;
+}
+
+/* Display None Example */
+
+.noneBox{
+    display: none;
+}

@@ -1,0 +1,16 @@
+/* Header Styles */
+.heading{
+    color: blue;
+    text-align: center;
+}
+
+/* Content Styles */
+.content{
+    color: green;
+    font-size: 18px;
+}
+
+/* General Styles */
+body{
+    font-family: Arial, sans-serif;
+}
