@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Event Feedback</title>
+<script>
+ function checkPhone() {
+alert("Phone Number Checked");
+ }
+
+ function showFee() {
+ var fee = document.getElementById("event").value;
+document.getElementById("result").innerHTML = "Fee: ₹" + fee;
+ }
+
+ function submitForm() {
+ alert("Feedback Submitted Successfully");
+   }
+
+function enlargeImage(img) {
+img.width = 300;
+ img.height = 200;
+}
+
+function countChar() {
+ var text = document.getElementById("feedback").value;
+document.getElementById("count").innerHTML =
+"Characters: " + text.length;
+        }
+</script>
+</head>
+
+<body>
+
+<h2>Event Feedback Form</h2>
+
+Phone Number:<input type="text" onblur="checkPhone()"> <br><br>
+ Select Event:<select id="event" onchange="showFee()">
+ <option value="100">Sports - 100</option>
+<option value="200">Music - 200</option>
+<option value="300">Cultural - 300</option>
+</select>
+ <p id="result"></p>
+<img src="event.jpg" width="150" height="100"
+         ondblclick="enlargeImage(this)"><br><br>
+
+ Feedback:<textarea id="feedback" onkeyup="countChar()"></textarea>
+<p id="count">Characters: 0</p>
+<button onclick="submitForm()">Submit</button>
+</body>
+</html>
